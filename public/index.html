@@ -13,6 +13,9 @@
       homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" type="text/css">
+    <link href="//cdn-media.web-view.net/popups/style/v1/main_combined-rtl.css?v=2.0.6935.20158" rel="stylesheet" type="text/css" />
+
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -22,7 +25,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>חלילית - הרשמה לסניף אשדוד</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -37,5 +40,44 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script type='text/javascript'>
+      (function () {
+        var _atpopq = window._atpopq || (window._atpopq = []);
+        window._atpopobj = {};
+        if (!_atpopq.loaded) {
+          var v = Math.floor((Math.random() * 1000000) + 1);
+          var atpopjs = document.createElement('script');
+          atpopjs.type = 'text/javascript';
+          atpopjs.async = true;
+          atpopjs.src = '//cdn-media.web-view.net/popups/lib/v1/loader.min.js?v=' + v;
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(atpopjs, s);
+          _atpopq.loaded = true;
+        }
+        _atpopq.push(['UserId', 'dxapsu']);
+        _atpopq.push(['PopupId', 'ewafwcu2']);
+        _atpopq.push(['IsraelCode', '104']);
+        _atpopq.push(['CountryCode', '104']);
+        _atpopq.push(['IsEmbed', true]);
+        _atpopq.push(['IgnoreMainCss', true]);
+        _atpopq.push(['OnEventCallback', 'handleATPopupEvent']);
+      })();
+    </script>
+    <script type="text/javascript">
+      //Sample event handler function
+      function handleATPopupEvent(ev,args){
+        switch(ev){
+          case 'display':
+            //Do this when the popup is displayed
+            break;
+          case 'close':
+            //Do this when the popup gets closed by the user
+            break;
+          case 'submit':
+            //Do this when popup gets submitted and the user doesn't get redirected to a URL
+            break;
+        }
+      }
+    </script>
   </body>
 </html>
