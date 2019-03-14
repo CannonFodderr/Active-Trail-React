@@ -4,7 +4,7 @@ class Banner extends React.Component{
     render(){
         return(
             <div>
-                <img className="ui large rounded image" src="./assets/banner.jpg" alt="באנר סניף אשדוד" style={{margin: "auto"}} />
+                <img className="ui large rounded image" src="./assets/Banner.jpg" alt="באנר סניף אשדוד" style={{margin: "auto"}} />
             </div>
         )
     };
